@@ -22,6 +22,9 @@ The process of making the video can be split into the following areas:
 When writing demos for the collection I generally try to make them an example of some real world activity, rather than just showing off a feature of a product. This means that the viewer will be able to relate to using that functionality and will be better able to use the knowledge on their own environment. As far as possible I also try to make the demo end to end for the task, including any complexity rather than skipping it. On very long demos I may skip some parts, but generally things like real world security should be included since demos that say "in the real world you'd do it differently" are far less useful.
 The demos start as a public repository on GitHub, and are written in markdown to ensure they are easy to access directly on Github through a link to the page. To write this I use Visual Studio Code which will format markdown nicely and has an available rules engine to ensure good structure of the page. The pages are designed to be self contained and so contain any and all knowledge or links to cover the demo itself, ideally with scripts, code and deployment automation built in. Code is always marked as such so that it displays properly and is formatted with the correct language keywords highlighted. Deployment automation is generally a button which pushes an Azure ARM template to Azure. This allows viewers to save time in deploying the base environment but rarely contains any configuration beyond that. Where usernames and passwords are needed I specify demogod and Password123$ which generally work with everything on Azure and are easy to remember. Security is not a consideration for demo environments so while the environment is configured correctly and securely, credentials are less of a concern.
 Images are included to show the interface at avery step, but I try not to add to many as it breaks up the content. For these I use the excelent Windows Snipping tool. 
+
+![snip](images/snip.png)
+
 Structure of the repo is generally simple, with something like the following:
 
 _instructions.md <- an MD file with the instructions
@@ -49,6 +52,8 @@ The script will always include three sections
 
 For screen recording, I use the excellent open source and free [OBS Studio](https://obsproject.com/). This allows all kinds of complex scenarios for recording. There are some gotchas when using a detachable laptop with multiple GPUs - these are fixed with the NVIDIA control panel by fixing OBS to the onboard GPU. I generally record screens at 1080p30 which gives high quality while also offering good performance. This resolution also renders well in Windows, with on screen menus being a resonable size by default for the resolution (I use 125% scaling). It also gives a good amount of screen real estate and shows well on YouTube. In some scenarios you may want to zoom in your application or increase the scale to make things more clear. Remember though you can also dynamically zoom later in the edit to highlight a screen area.
 
+![OBS](images/obs.png)
+
 When setting up to screen record, do the following:
 * Hide desktop items (right click on the desktop, View)
 * Black/plain background (Right click desktop, Personalize)
@@ -58,6 +63,14 @@ When setting up to screen record, do the following:
 * Close all tabs
 
 In an ideal world, create a blank user account for only this purpose so that it's always ready to go and doesn't have day to day clutter.
+
+While recording, do the following:
+
+* Keep the mouse cursor still unless actively doing something - this makes editing easier
+* Hover over buttons and links breifly before clicking to allow time for narration to explain the button and to ensure people see where you click
+* Move the mouse very slowly
+* Type slowly and try not to make mistakes
+* Record instructions in scenes. It's very hard to do everything in one take without errors
 
 ## Recording the Intro and other interview/monologue style footage
 
@@ -113,11 +126,29 @@ When using a GoPro or drone, I will record audio on the camera but also put a ph
 ## Editing the Video Footage
 
 For editing I use the excellent [DaVinci Resolve](https://www.blackmagicdesign.com/uk/products/davinciresolve/). Somehow this software has an almost complete version available for free and is available for Windows, Linux and Mac systems. This product is used commercially on large movies and so is very capable, as well as having a wealth of information on YouTube to learn how to use it, making it extremely accessible.
-* 
+
+![DavinciResolve](images/davinciresolve.png)
+
+* watermark
+* import clips
+* cut beginning and end
+* speed up/remove slow parts
 
 ## Sound Recording
-[Audacity](audacityteam.org/)
-* 
+
+There are two scenarios for sound recording, firstly while shooting video and secondly while narrating a video.
+
+### While filming
+
+While filming I will let the camera record audio and will always use a separate mic to record a high quality version. For lavalier mics I will usually use the voice memo app on my phone to capture the audio.
+
+### Narrating
+
+While narrating I work in my quiet office at home and connect a good microphone to the computer. This will either be a lavalier mic or a Rode Video Micro. If using the Rode I set it up on a Gorillapod on my desk directly in front of me, the lavalier will be set up on my shirt as normal. I use [Audacity](audacityteam.org/) to record the audio as it shows levels on screen.
+
+![Audacity](images/audacity.png)
+
+When recording I watch the video and describe what's happening. As with the screen recording, I do this in scenes to reduce mistakes. Leave a pause between sentences for editing and speak slowly and clearly. Any coughs or other noises can potentially be edited out but I generally just re-record as it doesn't take too long.
 
 ### Other Equipment
 [Mavic Air](https://www.dji.com/uk/mavic* air)

@@ -151,11 +151,11 @@ While narrating I work in my quiet office at home and connect a good microphone 
 When recording I watch the video and describe what's happening. As with the screen recording, I do this in scenes to reduce mistakes. Leave a pause between sentences for editing and speak slowly and clearly. Any coughs or other noises can potentially be edited out but I generally just re-record as it doesn't take too long.
 
 ### Other Equipment
-[Mavic Air](https://amzn.to/2GBrK9T)
-[Lav Mic 1](https://amzn.to/2u21LG0)
-[lav mic 2](https://amzn.to/37GAUxV)
-[Rode Video Micro](https://amzn.to/2u2vT46)
-[Gorilla Pod 3k kit](https://amzn.to/31hi2Dn)
+* [Mavic Air](https://amzn.to/2GBrK9T)
+* [Lav Mic 1](https://amzn.to/2u21LG0)
+* [lav mic 2](https://amzn.to/37GAUxV)
+* [Rode Video Micro](https://amzn.to/2u2vT46)
+* [Gorilla Pod 3k kit](https://amzn.to/31hi2Dn)
 
 ## Collecting B-Roll
 

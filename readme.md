@@ -129,12 +129,12 @@ For editing I use the excellent [DaVinci Resolve](https://www.blackmagicdesign.c
 
 ![DavinciResolve](images/davinciresolve.png)
 
-* watermark
-* import clips
-* cut beginning and end
-* speed up/remove slow parts
+I created a 1920 x 1080 image with my watermark and a transparent background. I add this as a top layer to the video so that the logo shows above everything else. I import this along with all of the video clips ready for editing. Next, I'll cut and insert the clips one at a time into the timeline. Here, I remove the start and end of the clip which is either me changing window from OBS or my reaching for camera controls. I watch each clip all the way through to check quality and then insert it in order. For instances where I have video and a sound track I'll insert the sound track beneath the video and line it up. To line up sound I use a clap or similar loud noise and look for that spike in the audio on both sources. I then adjust manually to ensure . Where the video source doesn't have audio I look for the clapping action and line that up to the sound.  Once all clips are in I watch through the whole video and make cuts before and after any slow parts such as when pages load in the Azure portal or when services deploy. Once the cuts are done I'll change the speed of the slow part to make it happen quickly. Because I don't move the mouse when things are happening this doesn't look weird at all and just seems as though I have a faster computer. Once all clips have been adjusted to keep the flow of the video moving I move on to narrating the clips. After narration is complete, I import the sound clips and line them up in the timeline.
+Finally, I render and encode the file as H264 in an MP4 file. I don't limit the bandwidth of this since YouTube will later compress the file so uploading a high quality version ensures no issues.
 
-## Sound Recording
+After upload, I watch the video through all of the way on YouTube to check quality and also get a single view. I then post to LinkedIn, Twitter and to internal Teams sites and mailing lists as appropriate. When doing this I put a description of the video, a link to the video and the GitHub instructions, and also add hashtags for all relevant technologies to make the video discoverable. I put a similar tagged description in the video description on YouTube.
+
+## Recording the audio track(s)
 
 There are two scenarios for sound recording, firstly while shooting video and secondly while narrating a video.
 
@@ -151,8 +151,12 @@ While narrating I work in my quiet office at home and connect a good microphone 
 When recording I watch the video and describe what's happening. As with the screen recording, I do this in scenes to reduce mistakes. Leave a pause between sentences for editing and speak slowly and clearly. Any coughs or other noises can potentially be edited out but I generally just re-record as it doesn't take too long.
 
 ### Other Equipment
-[Mavic Air](https://www.dji.com/uk/mavic* air)
-[Lav Mic]()
-[Camera Mic]()
+[Mavic Air](https://amzn.to/2GBrK9T)
+[Lav Mic 1](https://amzn.to/2u21LG0)
+[lav mic 2](https://amzn.to/37GAUxV)
+[Rode Video Micro](https://amzn.to/2u2vT46)
+[Gorilla Pod 3k kit](https://amzn.to/31hi2Dn)
 
+## Collecting B-Roll
 
+It's useful to have some b-roll on hand to use in videos to liven them up a little. For this I use my various cameras while out and about. If there's an interesting corner of an office, outside of a building, or something else that looks good then I'll take some nice steady footage of it. In offices this will generally be using a tripod or monopod and gently panning from one side to the other. I also often use my drone to get some footage for this purpose.

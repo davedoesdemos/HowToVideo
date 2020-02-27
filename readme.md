@@ -3,9 +3,11 @@
 **produced by Dave Lusty**
 
 ## Introduction
+
 This page holds details of how I make videos of the demos in the various repositories of Dave Does Demos. This isn't a general guide to video making, just an explanation of the various things I do in case they are useful to colleagues, friends and fans.
 
 ### Process
+
 The process of making the video can be split into the following areas:
 
 * Writing the demo
@@ -55,12 +57,14 @@ For screen recording, I use the excellent open source and free [OBS Studio](http
 ![OBS](images/obs.png)
 
 When setting up to screen record, do the following:
+
 * Hide desktop items (right click on the desktop, View)
 * Black/plain background (Right click desktop, Personalize)
 * 1080 resolution (Right click desktop, Display Settings)
 * Close email and Teams etc. so that personal messages do not appear
 * Use a different browser and private browsing tab so that personal browsing doesn't show in searches etc. or favourites on the toolbar
 * Close all tabs
+* Pause or quit any disk sync apps such as OneDrive to minimise strain on the system
 
 In an ideal world, create a blank user account for only this purpose so that it's always ready to go and doesn't have day to day clutter.
 
@@ -151,6 +155,7 @@ While narrating I work in my quiet office at home and connect a good microphone 
 When recording I watch the video and describe what's happening. As with the screen recording, I do this in scenes to reduce mistakes. Leave a pause between sentences for editing and speak slowly and clearly. Any coughs or other noises can potentially be edited out but I generally just re-record as it doesn't take too long.
 
 ### Other Equipment
+
 * [Mavic Air](https://amzn.to/2GBrK9T)
 * [Lav Mic 1](https://amzn.to/2u21LG0)
 * [lav mic 2](https://amzn.to/37GAUxV)
